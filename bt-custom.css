@@ -1,0 +1,23 @@
+h1 {
+    /* If you can't find right selector, you could 
+    add !important. This means that this declaration 
+    overrides every other CSS declaration */
+    font-size: 62px !important; 
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1600px;
+}
+
+.news {
+    background-color: silver;
+    padding: 10px 14px;
+}
