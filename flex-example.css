@@ -1,5 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://study.com/cimages/videopreview/videopreview-full/ycxna1d6b5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .product1 {
