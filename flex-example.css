@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product1 {
+    background-color: rgb(20, 241, 49);
+}
+
+.product2 {
+    background-color: aquamarine;
+}
+
+.product3 {
+    background-color: burlywood;
+}
+
+.flex-container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.product {
+    width: 31%;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        display: block;
+    }
+
+.product {
+    width: 100px;
+}
+}
